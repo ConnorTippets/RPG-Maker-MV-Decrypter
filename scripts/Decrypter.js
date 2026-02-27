@@ -11,7 +11,7 @@
  * @param {string|null} encryptionKey - Encryption-Key
  * @constructor - Decrypter
  */
-function Decrypter(encryptionKey) {
+export function Decrypter(encryptionKey) {
 	// Encryption-Fields
 	this.encryptCode = encryptionKey;
 
