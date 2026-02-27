@@ -12,7 +12,7 @@
  * @param {undefined|string|null} blobUrl - Blob-URL if set else null
  * @constructor - RPGFile
  */
-function RPGFile(file, blobUrl) {
+export function RPGFile(file, blobUrl) {
 	if(typeof blobUrl === 'undefined')
 		blobUrl = null;
 
