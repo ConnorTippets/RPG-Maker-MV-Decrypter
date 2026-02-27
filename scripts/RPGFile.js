@@ -189,7 +189,6 @@ RPGFile.prototype.convertExtension = function(toNormal) {
  */
 RPGFile.prototype.createBlobUrl = function(toNormal) {
 	this.blob = new Blob([this.content], {type: this.getMimeType(toNormal)});
-	this.blob.type = this.getMimeType();
 	this.fileUrl = window.URL.createObjectURL(this.blob);
 };
 
